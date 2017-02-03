@@ -1,0 +1,228 @@
+/** {
+	border: solid black 1px;
+}*/
+
+body {
+  	font-family: 'Cabin', sans-serif;
+  	margin: 0;
+  	padding: 0;
+  }
+
+/*HEADER*/
+header {
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/0f/d8/e6/0fd8e6dbca4755dd46620a9312970f23.jpg") center/cover no-repeat;
+}
+
+.nav {
+/*  background-color: #DB7093;
+  	opacity: 0.5;*/
+  	background-color: rgba(219, 112, 147, 0.5);
+  	font-family: 'Patrick Hand SC', cursive;
+  	font-size: 20px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+}
+
+nav a:hover {
+  	color: white;
+}
+
+.two {
+	margin: 0 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.brand-name {
+	display: inline-block;
+	width: 20%;
+	margin: 0 100px;
+}
+
+.main-menu {
+	display: inline-block;
+	width: 55%;
+	text-align: right;
+}
+
+.main-menu li {
+	display: inline;
+	list-style: none;
+	padding: 0 10px;
+}
+
+.hero-caption {
+	text-align: center;
+	padding: 75px;
+}
+
+h1 {
+	font-family: 'Grand Hotel', cursive;
+	/*font-family: 'Sacramento', cursive;*/
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-family: 'Arsenal', sans-serif;
+	margin-top: 5px;
+}
+
+.sub-menu {
+	display: inline-block;
+}
+
+.sub-menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+}
+
+/*MAIN*/
+main {
+	height: 100%;
+	padding: 0 100px;
+	border: 3px solid black;
+}	
+
+img {
+	opacity: 0.8;
+}
+
+button {
+/*	background-color: #DB7093;*/
+	box-shadow: none;
+	border-radius: 4px;
+	font-family: 'Arsenal', sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid;
+}
+
+/*LEFT*/
+section.left {
+	float: left;
+	height: 100%;
+	width: 70%;
+	padding: 20px 40px 20px 0;
+	box-sizing: border-box;
+	margin: 20px 0;
+}
+
+.article .today {
+	display: inline-block;
+	width: 45%;
+	font-family: 'Arsenal', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.article .date {
+	display: inline-block;
+	width: 45%;
+	text-align: right;
+}
+
+/*.article .featured {
+	background-color: #F4E8E3;
+	padding: 20px;
+}*/
+
+.article .featured {
+	padding-bottom: 20px;
+	border-bottom: 1px ridge black;
+}
+
+.pagination {
+	text-align: center;
+ 	background-color: rgba(219, 112, 147, 0.5);
+}
+
+.pagination li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+/*RIGHT*/
+section.right {
+	float: right;
+	height: 100%;
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.look {
+	background-color: rgba(232, 118, 155, 0.5);
+	padding: 20px;
+}
+
+
+h2, .right h3 {
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+form {
+	padding-bottom: 20px;
+}
+
+.categories, .archives {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.categories > li, .archives > li {
+	border-top: 1px solid black;
+	padding: 10px;
+}
+
+/*FOOTER*/
+footer {
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/0f/d8/e6/0fd8e6dbca4755dd46620a9312970f23.jpg");
+	padding: 0 100px;
+	height: 100%;
+}
+
+footer > div {
+	width: 100%;
+	height: 150px;
+}
+
+.footer-2 {
+	height: 20px;
+	background-color: #DB7093;
+	padding: 20px;
+	opacity: 0.5;
+	text-align: center;
+}
+
+footer > div > div {
+	float: left;
+}
+
+footer .col-1 {
+	width: 34%;
+	box-sizing: border-box;
+}
+
+footer .col-2 {
+	width: 33%;
+	box-sizing: border-box;
+}
+
+footer .col-3 {
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.col-1 p {
+	font-size: 14px;
+}
