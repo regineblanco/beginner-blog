@@ -7,7 +7,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Reenie+Beanie|Sacramento" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body>
+	<body id="body">
 
 	<!-- HEADER -->
 		<header>
@@ -17,7 +17,11 @@
 				</div>
 				<ul class="main-menu">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Project</a></li>
+					<li><a href="#">Projects</a>
+						<a href="#">
+						<i class="fa fa-caret-down"></i>
+						</a>
+  					</li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
@@ -29,8 +33,8 @@
 			<nav class="nav two">
 				<ul class="sub-menu">
 					<li><a href="#">Blogs</a></li>
-					<li><a href="#">Dolar sit amet</a></li>
-					<li><a href="#">Morbi in sem</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Coding Stuff</a></li>
 			</nav>
 		</header>
 
@@ -46,7 +50,7 @@
 					<div class="featured">
 						<h2>My Dog Winter</h2>
 						<p>My Japanese Spitz celebrated his third birthday last November, the same time I began my work at ANC.</p>
-						<img src="http://images10.postadsuk.com/2016/08/02/postadsuk.com-japanese-spitz-puppies-pets-for-sale.JPG" width="600" height="400"><br><br>
+						<div class="spitz"></div><br><br>
 						<button>more</button>
 						<button><i class="fa fa-heart"></i></button>
 						<button><i class="fa fa-code"></i></button>
@@ -57,10 +61,24 @@
 
 				<!-- GOT ARTICLE -->
 				<div class"article">
-					<h2>Let's talk about Game of Thrones</h2>
+					<div class="second-post">
+						<h2>Let's talk about Game of Thrones</h2>
+						<span>February 3, 2016 | Posted by: Regine</span>
+						<p>Season 8 is in the offing, are you ready of what's to come? Word is out that the Targaryan descendants will soon cross paths! Can you guess who they are?</p>
+						<div class="got-img"></div><br><br>
+						<button>more</button>
+						<button><i class="fa fa-heart"></i></button>
+						<button><i class="fa fa-code"></i></button>
+						<button><i class="fa fa-eye"></i></button>
+						<button><i class="fa fa-comment"></i></button>
+					</div>
+				</div>
+
+				<div class"article">
+					<h2>Chill & Surf at Circle Hostel</h2>
 					<span>February 3, 2016 | Posted by: Regine</span>
-					<p>Season 8 is in the offing, are you ready of what's to come? Word is out that the Targaryan descendants will soon cross paths! Can you guess who they are?</p>
-					<img src="http://i.onionstatic.com/avclub/5116/16/16x9/960.jpg" width="600" height="400" alt="The best TV show today"><br><br>
+					<p>Where people who wanna surf or even just chill at the beach come together to meet cool new friends.</p>
+					<div class="circle-hostel"></div><br><br>
 					<button>more</button>
 					<button><i class="fa fa-heart"></i></button>
 					<button><i class="fa fa-code"></i></button>
@@ -70,13 +88,13 @@
 
 				<!-- PAGINATION -->
 				<ul class="pagination">
-					<li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+					<li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
 					<li><a href="#">4</a></li>
 					<li><a href="#">5</a></li>
-					<li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+					<li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
 				</ul>
 			</section>
 
@@ -95,18 +113,18 @@
 				<div>
 					<h3>Categories</h3>
 					<ul class="categories">
-						<li>Donec quis dui at dolor tempor</li>
-						<li>Vestibulim commodo felis quis tort</li>
-						<li>Fusce pellentesque suscipit</li>
+						<li><a href="#">My Dog Winter</a></li>
+						<li><a href="#">Let's Talk About Game of Thrones</a></li>
+						<li><a href="#">Chill & Surf at Circle Hostel</a></li>
 					</ul>
 				</div>
 				<!-- ARCHIVES -->
 				<div>
 					<h3>Archives</h3>
 					<ul class="archives">
-						<li>July 2014</li>
-						<li>June 2014</li>
-						<li>May 2014</li>
+						<li><a href="#">Feb 2016</a></li>
+						<li><a href="#">Jan 2016</a></li>
+						<li><a href="#">Dec 2016</a></li>
 					</ul>
 				</div>
 			</section>
@@ -115,6 +133,7 @@
 
 		<!-- FOOTER -->
 		<footer>
+			<!-- COLUMNS FOOTER -->
 			<div class="footer-1">
 				<div class="col-1">
 					<h3>INTEGER VITAI LIBERO</h3>
@@ -123,7 +142,7 @@
 				</div>
 				<div class="col-2">
 					<h3>VESTIBULUM COMMO</h3>
-					<ul>
+					<ul class="latin-x">
 						<li>Ut alliquam solicitudin</li>
 						<li>Neque id curses faucibus</li>
 						<li>Raesent dapibus neque id cursus</li>
@@ -142,9 +161,10 @@
 				</div>
 			<div style="clear: both"></div>
 			</div>
+			<!-- TUITT FOOTER -->
 			<div class="footer-2">
-				<span>Tuitt Coding Bootcamp | 2017</span>
-				<span>^</span>
+				<span class="tuitt">Tuitt Coding Bootcamp | 2017</span>
+				<span class="caret"><a href="#body"><i class="fa fa-caret-up"></i></span>
 			</div>
 		</footer>
 	</body>
