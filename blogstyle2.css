@@ -40,6 +40,9 @@ a {
 	display: inline-block;
 	width: 20%;
 	margin: 0 100px;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 30px;
+	text-transform: none;
 }
 
 .main-menu {
