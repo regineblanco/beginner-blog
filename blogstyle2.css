@@ -116,7 +116,7 @@ section.left {
 
 .article .today {
 	display: inline-block;
-	width: 45%;
+	width: 53%;
 	font-family: 'Arsenal', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -134,9 +134,24 @@ section.left {
 	padding: 20px;
 }*/
 
-.article .featured {
+.featured, .second-post {
 	padding-bottom: 20px;
 	border-bottom: 1px ridge black;
+}
+
+.spitz {
+	background: url("http://images10.postadsuk.com/2016/08/02/postadsuk.com-japanese-spitz-puppies-pets-for-sale.JPG") center/cover no-repeat;
+	height: 400px;
+}
+
+.got-img {
+	background: url("http://i.onionstatic.com/avclub/5116/16/16x9/960.jpg") center/cover no-repeat;
+	height: 400px;
+}
+
+.circle-hostel {
+	background: url("http://www.mylifeonboard.net/wp-content/uploads/2015/06/10422117_751309441642146_7855875779375206557_n.jpg") center/cover no-repeat;
+	height: 400px;
 }
 
 .pagination {
@@ -148,6 +163,10 @@ section.left {
 	list-style: none;
 	display: inline-block;
 	padding: 10px;
+}
+
+.pagination a:hover {
+  	color: white;
 }
 
 /*RIGHT*/
@@ -163,7 +182,6 @@ section.right {
 	background-color: rgba(232, 118, 155, 0.5);
 	padding: 20px;
 }
-
 
 h2, .right h3 {
 	font-family: 'Patrick Hand SC', cursive;
@@ -184,6 +202,12 @@ form {
 	padding: 10px;
 }
 
+.categories a:hover, .archives a:hover {
+	background-color: #F4E8E3;
+	border-radius: 8px;
+	padding: 10px;
+}
+
 /*FOOTER*/
 footer {
 	background: url("https://s-media-cache-ak0.pinimg.com/originals/0f/d8/e6/0fd8e6dbca4755dd46620a9312970f23.jpg");
@@ -198,10 +222,9 @@ footer > div {
 
 .footer-2 {
 	height: 20px;
-	background-color: #DB7093;
+	background-color: rgba(219, 112, 147, 0.5);
 	padding: 20px;
-	opacity: 0.5;
-	text-align: center;
+	margin-top: 20px;
 }
 
 footer > div > div {
@@ -225,4 +248,26 @@ footer .col-3 {
 
 .col-1 p {
 	font-size: 14px;
+}
+
+.latin-x {
+	list-style: none;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+}
+
+.latin-x > li {
+	border-top: 1px solid black;
+	padding: 10px;
+}
+
+.footer-2 > .tuitt {
+	display: inline-block;
+	width: 60%;
+}
+
+.footer-2 > .caret {
+	display: inline-block;
+	width: 35%;
+	text-align: right;
 }
