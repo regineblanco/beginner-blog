@@ -228,8 +228,8 @@ footer {
 }
 
 .footer-2 {
-	height: 20px;
 	background-color: rgba(219, 112, 147, 0.5);
+	height: 20px;
 	padding: 20px 100px 35px 100px;
 	margin-top: 20px;
 	box-sizing: border-box;
